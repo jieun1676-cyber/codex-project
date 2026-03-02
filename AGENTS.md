@@ -185,6 +185,20 @@ UI direction currently used:
 - Update style guidance when lint/TS config changes.
 - Mirror future Cursor/Copilot instructions here.
 
+## 8) Collaboration Docs (New)
+
+- `GLOBAL.md`
+  - High-level collaboration contract between user and coding agents.
+  - Includes request template, verify checklist, security rules, and git habits.
+- `docs/LESSONS_LEARNED_2026-03-02.md`
+  - First-session retrospective and practical improvements for next-day workflow.
+
+Usage policy:
+
+- Agents should consult `GLOBAL.md` for cross-session collaboration defaults.
+- Treat dated lesson files under `docs/` as evolving operational playbooks.
+- Keep `AGENTS.md` as the technical source of truth for repo commands and conventions.
+
 ---
 
 Last verified against:
